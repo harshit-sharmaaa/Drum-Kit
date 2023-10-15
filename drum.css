@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(2, 2, 129, 0.658);
+    font-family: Arvo;
+    text-align: center;
+}
+
+#title{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 0 #DA0463;
+}
+
+.pressText{
+    color: white;
+    text-shadow: 3px 0 #DA0463;
+    transition:ease;
+}
+
+/* to add a fade in and out effect on "press any key" */
+.pressText {
+    animation: fadeInOut 3s linear 1 forwards;
+    animation-iteration-count:infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+footer{
+    color: white;
+    font-size: 1rem;
+    margin-top: 150px;
+}
+
+.w{
+    background-image: url(images/tom1.png);
+}
+
+.a {
+    background-image: url(images/tom2.png);
+}
+
+.s {
+    background-image: url(images/tom3.png);
+}
+
+.d {
+    background-image: url(images/tom4.png);
+}
+
+.j {
+    background-image: url(images/snare.png);
+}
+
+.k {
+    background-image: url(images/crash.png);
+}
+
+.l {
+    background-image: url(images/kick.png);
+}
+
+.set{
+    margin-top: 70px;
+}
+
+.drum{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 2;
+    color: #DA0463;
+    border: 10px solid #404B69;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    text-align: center;
+    
+}
